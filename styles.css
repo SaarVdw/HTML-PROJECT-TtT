@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
+
+.main-title{
+  font-family: "Italiana", serif;
+  font-size: 40px;
+  color: #E3735E;
+  text-shadow: 2px 2px 5px gray;
+  padding-top: 30px;
+  grid-column-end: 3;
+}
+
+.image-1{
+  grid-column-end: 2;
+}
+
+.image-2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.main-grid{
+  display: grid;
+  grid-template-columns: 17% 25% 17%;
+  justify-content: center;
+}
+
+.kat-gif{
+  position: relative;
+  right: 30px;
+}
+
+.inleiding{
+  font-family: "Italiana", serif;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 20px;
+  color:#E9C600;
+}
+
+.tussentitel{
+  display: grid;
+  grid-template-columns: auto;
+  height: 100px;
+  font-family: "Italiana", serif;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  font-size: 20px;
+  color:#E9C600;
+}
+
+.grid-1{
+  display: grid;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  height: auto;
+  justify-content: center;
+  background-color: #E3735E;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: 5% 40% 40% 5%;
+  height: 450xp;
+  justify-content: center;
+  background-color: #F6CF09;
+}
+
+.rotation{
+  transform:rotate(90deg);
+}
+
+.video-1{
+  grid-column-start: 2
+}
+
+.video-2{
+  grid-column-start: 3
+}
+
+.footer{
+  font-family: "Scope One", serif;
+  font-size: 15px;
+  color: #1E5104;
+  padding-top: 20px;
+}
+
+.h3{
+  font-family: "Italiana", serif;
+  font-size: 20px;
+  color: #FDF5E6;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.background{
+  background: #FDF5E6;
+  height: 100vh;
+}
